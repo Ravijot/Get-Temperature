@@ -20,7 +20,7 @@ form.addEventListener('submit',(e) => {
                result.textContent = data.error
             } else {
                
-                result1.textContent = 'Temprature of '+ city +' - ' + data.temprature
+                result1.textContent = 'Temprature of '+ city +' : ' + data.temprature
                
             }
         })
